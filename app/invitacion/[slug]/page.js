@@ -47,13 +47,13 @@ export default async function InvitationPage({ params }) {
     <main>
       {/* Portada */}
       <div className="relative h-[70dvh] w-full">
-        <Image
-          src={data.coverImage}
-          alt={data.personName}
-          fill
-          priority
-          className="object-cover object-[center_25%] md:object-[center_45%]"
-        />
+         <Image
+    src={data.coverImage}
+    alt={data.personName}
+    fill
+    priority
+    className="object-cover object-[center_35%] md:object-[center_25%]"
+  />
         <div className="absolute inset-0 overlay-soft" />
         {/* Marco dorado */}
         <div className="absolute inset-8 border border-gold-400/70 rounded-2xl pointer-events-none"></div>
